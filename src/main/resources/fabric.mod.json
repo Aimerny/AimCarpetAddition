@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "aca",
+  "version": "${version}",
+  "name": "AimCarpetAddition",
+  "description": "",
+  "authors": ["Aimerny"],
+  "contact": {
+    "repo": "https://github.com/aimerny/AimCarpetAddition"
+  },
+  "license": "MIT",
+  "icon": "assets/aca/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.github.aimerny.carpet.AimCarpetAddition"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  },
+  "mixins": [
+    "aca.mixins.json"
+  ]
+}

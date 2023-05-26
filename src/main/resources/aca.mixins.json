@@ -1,0 +1,18 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.github.aimerny.carpet.mixins",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "MineCartMixin",
+    "MineCartChestMixin",
+    "MineCartHopperMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "client": [
+  ],
+  "server": [
+  ]
+}

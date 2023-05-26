@@ -1,0 +1,5 @@
+{
+    "category.ACA": "ACA",
+    "rule.minecartsDropSelf.name":  "特定矿车被摧毁时掉落自身",
+    "rule.minecartsDropSelf.desc":  "漏斗矿车和箱子矿车会在被摧毁时掉落本身而非分解，此特性在原版1.19时加入"
+}

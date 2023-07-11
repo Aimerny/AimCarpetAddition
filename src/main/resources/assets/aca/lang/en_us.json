@@ -1,5 +1,5 @@
 {
   "category.ACA": "ACA",
-  "rule.minecartsDropSelf.name":  "Minecarts drop self",
-  "rule.minecartsDropSelf.desc":  "Hopper minecart and Chest minecart drop self when be destroyed"
+  "rule.trapDoorUpdateRedStoneWireDirection.name":  "RedstoneDirectionFix",
+  "rule.trapDoorUpdateRedStoneWireDirection.desc":  "trapdoor state change will update redstone wire direction"
 }

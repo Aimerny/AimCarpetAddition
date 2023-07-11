@@ -4,9 +4,7 @@
   "package": "com.github.aimerny.carpet.mixins",
   "compatibilityLevel": "JAVA_17",
   "mixins": [
-    "MineCartMixin",
-    "MineCartChestMixin",
-    "MineCartHopperMixin"
+    "RedstoneWireBlockMixin"
   ],
   "injectors": {
     "defaultRequire": 1

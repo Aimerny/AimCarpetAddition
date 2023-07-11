@@ -1,6 +1,6 @@
 package com.github.aimerny.carpet;
 
-import carpet.settings.Rule;
+import carpet.api.settings.Rule;
 
 public class AcaSetting {
 
@@ -9,9 +9,8 @@ public class AcaSetting {
 
 
     @Rule(
-            desc = "hopper minecart and chest minecart drop self when be destroyed",
-            category = {ACA, EXPERIMENTAL}
+            categories = {ACA, EXPERIMENTAL}
     )
-    public static boolean minecartsDropSelf = false;
+    public static boolean trapDoorUpdateRedStoneWireDirection = false;
 
 }

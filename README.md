@@ -16,22 +16,22 @@ AimCarpetAddition(以下简称`ACA`或`aca`)是[Carpet mod](https://github.com/g
 
 ## 依赖
 
-* `fabric-api` >= `0.76.0`
-* `fabric-carpet` >= `1.4.45+v210811`
+* `fabric_version` >= `0.83.0+1.20`
+* `fabric-carpet` >= `1.4.112`
 * `fabric-loader` >= `0.14.19`
 
 ## 索引
 
 ### [规则](#规则列表)
 
-- [漏斗矿车和箱子矿车掉落物修改](#漏斗矿车和箱子矿车掉落物修改-minecartsDropSelf)
+- [重新引入活板门改变红石粉朝向](#重新引入活板门改变红石粉朝向-trapDoorUpdateRedStoneWireDirection)
 
 ## 规则列表
 
-### 漏斗矿车和箱子矿车掉落物修改-minecartsDropSelf
+### 重新引入活板门改变红石粉朝向-trapDoorUpdateRedStoneWireDirection
 
-打开该选项可以使**漏斗矿车**以及**箱子矿车**在被玩家摧毁时掉落本身,而不是分解成矿车和对应的物品
-> 本特性在**1.19**及以上版本已在原版支持
+打开该选项以重新引入`1.20`之前红石粉对活板门的指向特性,使得在`1.20`版本可以使用音符盒+活板门更新跳略
+> 本特性仅在**1.20**以上版本支持
 
 - 类型: `boolean`
 - 默认值: `false`
